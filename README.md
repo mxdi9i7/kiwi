@@ -47,14 +47,12 @@ Full PRD: [`/docs/prd.md`](./docs/prd.md)
 
 ## Stack
 
-Planned, not yet committed:
+- **Client** — React Native, Tailwind via NativeWind. iOS first.
+- **Backend** — Supabase (Postgres, auth, storage, edge functions)
+- **AI** — DeepSeek v4 Pro by default. BYOT (bring your own token) on the roadmap so users can plug in any compatible provider.
+- **Speech-to-text** — iOS Speech framework (on-device) at launch. Cross-platform and cloud fallbacks evaluated as Android and HarmonyOS land.
 
-- **iOS client** — Swift, SwiftUI
-- **Backend** — TBD (Node or Python; Supabase under evaluation for storage and auth)
-- **AI** — Anthropic Claude API for triage, project dialogues, prioritization scoring
-- **Speech-to-text** — on-device (iOS Speech framework) with cloud fallback
-
-Self-hosting will be supported once the cloud service stabilizes. Docker images and infra docs will follow.
+Self-hosting will be supported once the cloud service stabilizes. Setup docs to follow.
 
 ## Built in public
 
