@@ -43,13 +43,13 @@ Each morning, Kiwi scores all active tasks on a Signal-vs-Noise axis and surface
 | **4** | Personal finance module — assets, investments, budgets, savings goals |
 | **5** | Android, HarmonyOS, web (read/search) |
 
-Full PRD: [`/docs/prd.md`](./docs/prd.md)
+Full PRD: [`docs/prd.md`](./docs/prd.md)
 
 ## Stack
 
 - **Client** — React Native, Tailwind via NativeWind. iOS first.
 - **Backend** — Supabase (Postgres, auth, storage, edge functions)
-- **AI** — DeepSeek v4 Pro by default. BYOT (bring your own token) on the roadmap so users can plug in any compatible provider.
+- **AI** — DeepSeek v4 Pro. Single provider, no BYOT — prompts, evals, and tooling are tuned specifically for DeepSeek.
 - **Speech-to-text** — iOS Speech framework (on-device) at launch. Cross-platform and cloud fallbacks evaluated as Android and HarmonyOS land.
 
 Self-hosting will be supported once the cloud service stabilizes. Setup docs to follow.
